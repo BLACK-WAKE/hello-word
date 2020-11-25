@@ -1,0 +1,25 @@
+ Console.WriteLine("lütfen bir ay giriniz \n ocak \n şubat \n mart \n nisan ");
+            string secim = Console.ReadLine();
+
+            if (secim == "ocak")
+            {
+                Console.WriteLine("ocak ayı 30 gündür");
+            }
+            else if (secim == "")
+            {
+                Console.WriteLine("şubat ayında 28 gün vardır");
+            }
+            else if (secim == "mart")
+            {
+                Console.WriteLine("mart ayı 30 gündür");
+            }
+            else if (secim == "nisan")
+            {
+                Console.WriteLine("nisan ayı 31 gündür");
+            }
+            else
+            {
+                Console.WriteLine("yanlış tuşladınız");
+            }
+            
+            Console.ReadLine();
